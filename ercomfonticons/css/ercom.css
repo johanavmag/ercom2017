@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'ercom';
+  src: url('../font/ercom.eot?14840949');
+  src: url('../font/ercom.eot?14840949#iefix') format('embedded-opentype'),
+       url('../font/ercom.woff2?14840949') format('woff2'),
+       url('../font/ercom.woff?14840949') format('woff'),
+       url('../font/ercom.ttf?14840949') format('truetype'),
+       url('../font/ercom.svg?14840949#ercom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'ercom';
+    src: url('../font/ercom.svg?14840949#ercom') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "ercom";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-direccion:before { content: '\e800'; } /* '' */
+.icon-ercom:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\e802'; } /* '' */
+.icon-foco:before { content: '\e803'; } /* '' */
+.icon-informacion:before { content: '\e804'; } /* '' */
+.icon-inicio:before { content: '\e805'; } /* '' */
+.icon-mail:before { content: '\e806'; } /* '' */
+.icon-marketing:before { content: '\e807'; } /* '' */
+.icon-mensaje:before { content: '\e808'; } /* '' */
+.icon-mision:before { content: '\e809'; } /* '' */
+.icon-nombre:before { content: '\e80a'; } /* '' */
+.icon-nosotros:before { content: '\e80b'; } /* '' */
+.icon-porqueelegirnos:before { content: '\e80c'; } /* '' */
+.icon-rrss-compartir:before { content: '\e80d'; } /* '' */
+.icon-soa:before { content: '\e80e'; } /* '' */
+.icon-soluciones:before { content: '\e80f'; } /* '' */
+.icon-telefono:before { content: '\e810'; } /* '' */
+.icon-twitter:before { content: '\e811'; } /* '' */
+.icon-vineta:before { content: '\e812'; } /* '' */
+.icon-vision:before { content: '\e813'; } /* '' */
+.icon-1:before { content: '\e814'; } /* '' */
+.icon-2:before { content: '\e815'; } /* '' */
+.icon-3:before { content: '\e816'; } /* '' */
+.icon-asesoria:before { content: '\e817'; } /* '' */
+.icon-clientes:before { content: '\e818'; } /* '' */
+.icon-clientes-manos:before { content: '\e819'; } /* '' */
+.icon-contacto:before { content: '\e81a'; } /* '' */
+.icon-aliados:before { content: '\e81b'; } /* '' */
